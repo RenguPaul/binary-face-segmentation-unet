@@ -155,6 +155,8 @@ std  = 0.5
 
 ## Dataset
 
+**Источник:** [Face Segmentation Dataset — Kaggle](https://www.kaggle.com/datasets/bemorekgg/face-segmentation-dataset)
+
 Для загрузки данных реализован класс `SegmentationDataset`.
 
 Один элемент датасета имеет форму:
