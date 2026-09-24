@@ -1,50 +1,29 @@
+# Dataset
+archive.zip
+
+data/*
+!data/.gitkeep
+
+# Model checkpoints
+checkpoints/*
+!checkpoints/.gitkeep
+
+# Results
+results/*
+!results/.gitkeep
+
 # Python
 __pycache__/
 *.py[cod]
-*$py.class
-*.so
-.Python
-build/
-dist/
-*.egg-info/
 
-# Virtual env
-venv/
+# Virtual environments
 .venv/
+venv/
 env/
-ENV/
 
 # Jupyter
 .ipynb_checkpoints/
 
-# PyCharm / VSCode
-.idea/
-.vscode/
-
-# Data
-data/*
-!data/.gitkeep
-*.zip
-*.tar
-*.tar.gz
-
-# Models
-*.pth
-*.pt
-*.onnx
-*.ckpt
-
-# Results
-runs/
-logs/
-checkpoints/*
-!checkpoints/.gitkeep
-results/*
-!results/.gitkeep
-
 # OS
 .DS_Store
 Thumbs.db
-
-# Env
-.env
